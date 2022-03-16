@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400&family=Spartan:wght@500&display=swap');
+
+
+body{
+    background: url("Union.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+
+.navHome{
+
+    color:#F44336;
+}
+nav{
+    
+
+    position: absolute;
+    width: 710.96px;
+    height: 132.98px;
+    left: 115px;
+    top: 40.92px;
+    z-index: 998;
+    transition: all 0.3s ease;
+    font-family: 'Spartan', sans-serif;
+    color: #928A97;
+    text-decoration: none;
+  }
+  nav.sticky{
+    background: #4070f4;
+    padding: 13px 0;
+    text-decoration: none;
+  }
+  nav .navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    text-decoration: none;
+  }
+
+  nav .navbar .menu{
+    display: flex;
+    position: relative;
+  }
+  nav .navbar .menu li{
+    list-style: none;
+    margin: 0 8px;
+  }
+  .navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #928A97;
+    padding: 6px 0;
+    transition: all 0.4s ease;
+  }
+  .navbar .menu a:hover{
+    color: #fff;
+  }
+  nav.sticky .menu a{
+    color: #FFF;
+  }
+  nav.sticky .menu a:hover{
+    color: #0E2431;
+  }
+  .navbar .media-icons a{
+    color: #4070f4;
+    font-size: 18px;
+    margin: 0 6px;
+  }
+  nav.sticky .media-icons a{
+    color: #FFF;
+  }
+li{
+
+    padding-left: 70px;
+}
+
+#vector{
+    
+    position: absolute;
+    left: 12%;
+    right: 77.51%;
+    top: 0.9%;
+    bottom: 96.52%;
+}
+  /* Side Navigation Menu Button CSS */
+  
+  
+.athira{
+    position: absolute;
+    width: 215.19px;
+    height: 51.12px;
+    left: 227.37px;
+    top: 398.87px;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45.1778px;
+    color: #fff;
+}
+h3{
+
+    position: absolute;
+    width: 601.58px;
+    height: 32.1px;
+    left: 222.62px;
+    top: 469.02px;
+
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5333px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+}
+.icons{
+    padding-top: 20px;
+    position: absolute;
+    left: 12%;
+    right: 6.25%;
+    top: 60%;
+
+}
