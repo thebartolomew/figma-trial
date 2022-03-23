@@ -2,7 +2,7 @@
 
 
 body{
-    background: url("Union.png");
+    background: url("../icons/Union.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration: none;
@@ -118,10 +118,35 @@ h3{
     color: #FFFFFF;
 }
 .icons{
-    padding-top: 20px;
     position: absolute;
     left: 12%;
     right: 6.25%;
     top: 60%;
+    
 
+}
+.facik{
+    position: absolute;
+    left: 14%;
+    right: 6.25%;
+    top: 59.5%;
+}
+.steam{
+    position: absolute;
+    left: 19.2%;
+    right: 6.25%;
+    top: 60.6%;
+}
+.twitch{
+  position: absolute;
+  left: 23%;
+  right: 6.25%;
+  top: 60.8%;
+}
+
+.logo{
+  position: absolute;
+  top: 100px;
+  left: -20px;
+  
 }
