@@ -60,8 +60,6 @@ h1{
 .input-form{
     margin: 15px 40px;
     text-align: center;
-    
-
 }
 
 .title {
@@ -216,8 +214,32 @@ a{
         padding: 5% 0 ;
         overflow: hidden;
         text-align: center;
+        margin-left: 12%;
     }
     .input-form-submit input[type="submit"]{
         margin-left: 24%;
     }
+    .form{
+        max-width: 350px;
+        margin-left: -10%;
+    }
+    .input-form input{
+        width: 320px;
+        
+    }
+    .forgotPassword{
+        padding-left: 10%;
+    }
+    .form h2{
+        margin-left: 21%;
+        margin-right: 8%;
+    }
+    .input-form-submit input[type="submit"]:active{
+        background-color: rgb(54, 54, 54);
+        transition: 0.15s;
+    }
+}
+
+._header{
+    display: flex;
 }
