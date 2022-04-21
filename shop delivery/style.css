@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -133,7 +134,7 @@ h1{
 .input-form-submit input[type="submit"]:hover{
     background-color: rgb(73, 71, 71);
     cursor: pointer;
-    transition: 0.2s ease-in-out .0.2s;
+    transition: 0.2s ease-in-out 0.2s;
 }
 
 .forgotPassword{
@@ -143,7 +144,7 @@ h1{
     font-weight: lighter;
     
 }
-a{
+._password{
     color: black;
     
 }
@@ -240,6 +241,169 @@ a{
     }
 }
 
+
+
+/* Main page */
+._main{
+    border-radius: 50px;
+    padding-top: 1%;
+    
+}
+
 ._header{
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    
+}
+
+._logo{
+    margin-top: -2%;
+}
+
+.input-form input[type="search"]{
+    background: url(../icons/Group\ 5.svg);
+    background-size: 2%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 12px;
+    text-indent: 15px;
+    
+}
+
+#__search{
+    width: 800px;
+    border-radius: 14px;
+    
+}
+
+.menu{
+    margin-top: 1.3%;
+
+}
+.menu:hover{
+    cursor: pointer;
+
+}
+
+.navigation{
+    max-width: 1250px;
+    margin-left: 8.6%;
+    margin-top: 5%;
+    padding: 25px 80px;
+    background-color: #F6BE51;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;    
+
+    
+}
+.nav_ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list_main{
+    list-style-type: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.upperShopsLine{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textShops{
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.food{
+    margin-left: 17%;
+}
+.flowers1{
+    margin-left: 36%;
+}
+.pharmacy1{
+    margin-left: 36%;
+}
+
+.lowerShopsLine{
+    margin-left: 3%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.markets1{
+    margin-left: 17%;
+}
+
+.forkids1{
+    margin-left: 29%;
+}
+
+.footer{
+    display: flex;
+    margin-top: 10%;
+    padding: 3% 0;
+    align-items: flex-end;
+    background-color: #454444;
+    color: #fff;
+    border-radius: 20px;
+    justify-content: space-around;
+    
+}
+
+.footerList{
+    list-style-type: none;
+    padding: 5% 0;
+}
+
+.footerList:hover{
+    cursor: pointer;
+}
+.appStore{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+._Appstore{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imageApp{
+    margin-right: 20px;
+}
+
+.GooglePlay{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+.imageGoogle{
+    margin-top: 10px;
+}
+
+.appStore:hover{
+    cursor: pointer;
+    background-color: #5e5c5c;
+    transition: 00.2s;
+}
+.GooglePlay:hover{
+    cursor: pointer;
+    background-color: #5e5c5c;
+    transition: 00.2s;
 }
